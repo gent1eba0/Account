@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.a23534.account">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Account"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".LoginActivity"
+            android:label="个人记账app">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="主界面" />
+        <activity
+            android:name=".InsertActivity"
+            android:label="添加收支" />
+        <activity
+            android:name=".SelectActivity"
+            android:label="查看收支" />
+        <activity
+            android:name=".UpdateActivity"
+            android:label="修改收支" />
+        <activity
+            android:name=".DeleteActivity"
+            android:label="删除收支" />
+    </application>
+
+</manifest>

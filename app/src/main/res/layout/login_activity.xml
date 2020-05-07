@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:src="@drawable/ic_local_atm_black_24dp"/>
+    <TableRow>
+
+        <TextView
+            android:id="@+id/textView"
+            android:text="用户名："
+            android:textColor="#000000"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/login_username"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="密码："
+            android:textSize="24sp"
+            android:textColor="#000000"/>
+
+        <EditText
+            android:id="@+id/login_password"
+            android:layout_width="250dp"
+            android:inputType="textPassword" />
+    </TableRow>
+    <TableRow
+        android:layout_marginTop="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_span="2"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/login_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="登陆"
+                android:textSize="20sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/login_exit"
+                android:text="退出"
+                android:textSize="20sp"/>zz
+        </LinearLayout>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="账号1910242 密码123456"
+            android:textSize="20sp"
+            android:layout_span="2"
+            android:textColor="#363535"/>
+    </TableRow>
+    <TableRow>
+    <TextView
+        android:gravity="center"
+        android:padding="40dp"
+        android:text="取之有度，用之有节，则常足"
+        android:textSize="20sp"
+        android:layout_span="2"
+        android:textColor="#ff0004"/>
+</TableRow>
+</TableLayout>
+
+
+

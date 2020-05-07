@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Account</string>
+    <string name="title_activity_money">MoneyActivity</string>
+    <string name="title_activity_moneyactivity">Moneyactivity</string>
+</resources>
